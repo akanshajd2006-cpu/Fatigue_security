@@ -1,6 +1,3 @@
-Yess 😤🔥 copy-paste this whole thing into `README.md`:
-
-```markdown
 # 🔐 Fatigue Security - ROS2 DDS Security Framework
 
 ## Overview
@@ -11,8 +8,6 @@ Instead of relying only on traditional firewall-based protection, this project f
 
 The goal is to create a trusted ROS2 environment where only authorized nodes can communicate.
 
----
-
 ## 🎯 Objectives
 
 - Secure ROS2 node-to-node communication
@@ -22,11 +17,7 @@ The goal is to create a trusted ROS2 environment where only authorized nodes can
 - Monitor ROS2 node permissions
 - Improve security of distributed robotic systems
 
----
-
 ## 🏗️ Project Structure
-
-```
 
 Fatigue_security/
 
@@ -65,8 +56,6 @@ Components:
 
 Each ROS2 node gets its own identity certificate.
 
----
-
 ## DDS Access Control
 
 Access control is implemented using DDS Security permission files.
@@ -79,8 +68,6 @@ Includes:
 
 Only approved ROS2 participants are allowed to communicate.
 
----
-
 ## Permission Monitoring
 
 `permission_monitor_node`
@@ -91,8 +78,6 @@ Responsible for:
 - Checking security configuration
 - Observing authorized communication
 - Supporting security auditing
-
----
 
 ## Secure ROS2 Communication
 
@@ -106,13 +91,9 @@ Communication uses:
 Middleware:
 
 ```
-
 rmw_fastrtps_cpp
 
 ````
-
----
-
 # 🛠️ Technologies Used
 
 - ROS2 Humble
@@ -121,8 +102,6 @@ rmw_fastrtps_cpp
 - DDS Security
 - OpenSSL
 - Linux Ubuntu
-
----
 
 # ▶️ Running Nodes
 
@@ -137,9 +116,6 @@ Run permission monitor:
 ```bash
 ros2 run settings_pkg permission_monitor_node
 ```
-
----
-
 # 🔐 Enable DDS Security
 
 Before running nodes:
@@ -150,8 +126,6 @@ This enables:
 * Encryption
 * Access control
 
----
-
 # 📚 Documentation
 
 Project documentation includes:
@@ -161,8 +135,6 @@ Project documentation includes:
 * Privacy Rules
 * DDS Security Notes
 
----
-
 # 🚀 Future Improvements
 
 * AI-based anomaly detection
@@ -170,8 +142,6 @@ Project documentation includes:
 * Automated trust scoring
 * Real-time security monitoring
 * Integration with cybersecurity tools
-
----
 
 # 👩‍💻 Author
 
