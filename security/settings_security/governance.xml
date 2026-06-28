@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dds>
+    <security>
+        <authentication>true</authentication>
+        <access_control>true</access_control>
+        <encryption>true</encryption>
+    </security>
+</dds>
